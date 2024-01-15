@@ -137,7 +137,7 @@ resource "aws_instance" "ec2_instance" {
 #   connection {
 #     type        = "ssh"
 #     user        = "ec2-user"
-#     private_key = file("~/Downloads/devopskeypair.pem")
+#     private_key = file("~/Downloads/public-kp.pem")
 #     host = self.public_ip
 
 
